@@ -99,6 +99,29 @@ footer {
   <p>Join Blackthorn Studios and showcase your stories and videos.</p>
   <a href="mailto:creators@blackthornstudios.com">Express Your Interest</a>
 </section>
+<section id="creator-application">
+  <h2>Apply to Become a Creator</h2>
+  <p>Tell us about yourself and your creativity.</p>
 
+  <form action="mailto:creators@blackthornstudios.com" method="post" enctype="text/plain">
+    <label>Your Name</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Your Email</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Content Type</label><br>
+    <select name="content">
+      <option>Written Stories</option>
+      <option>Video Series</option>
+      <option>Both</option>
+    </select><br><br>
+
+    <label>Tell Us About Your Work</label><br>
+    <textarea name="introduction" rows="5"></textarea><br><br>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</section>
 </body>
 </html>
